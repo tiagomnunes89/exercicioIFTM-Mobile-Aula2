@@ -1,4 +1,4 @@
-package br.edu.iftm.spinner;
+package br.edu.iftm.spinner.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,12 +13,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.edu.iftm.spinner.R;
 import br.edu.iftm.spinner.config.RetrofitService;
 import br.edu.iftm.spinner.entities.User;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
 
